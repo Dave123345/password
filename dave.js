@@ -6,8 +6,7 @@ async function fetchCodes() {
     return response.json();
 }
 
-
-
+//GENOVS
 async function displayFlag() {
     const code = document.getElementById('inputField').value.trim();
     const flagDisplay = document.getElementById('flagDisplay');
